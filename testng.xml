@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Saucedemo Test Suite">
+    <test verbose="2" name="/Users/hvelezmo/OneDrive - NTT DATA EMEAL/Desktop/SELENIUM/TestConAllure">
+        <classes>
+            <class name="PageObjectModelTest">
+                <methods>
+                    <include name="testLogin"/>
+                    <include name="testAddBackpackToCart"/>
+                    <include name="testAddFleeceJacketToCart"/>
+                    <include name="testCart"/>
+                    <include name="testCheckout"/>
+                    <include name="testFinalCheckout"/>
+                    <include name="testOrderCompletion"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
