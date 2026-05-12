@@ -61,7 +61,7 @@ public class PageObjectModelTest {
     public void testLogin() {
         loginPage.login("standard_user", "secret_sauce");
 
-        Assert.assertTrue(productsPage.isPageOpened(), "Login failed!!!");
+        Assert.assertTrue(productsPage.isPageOpened(), "Login failed!");
 
         delay();
     }
