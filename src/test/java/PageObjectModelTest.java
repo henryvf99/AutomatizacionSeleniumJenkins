@@ -194,7 +194,6 @@ public class PageObjectModelTest {
 
     @Test(dependsOnMethods = "testOrderCompletion")
     public void testDummy(){
-        //prueba
         Assert.assertTrue(true);
     }
 
