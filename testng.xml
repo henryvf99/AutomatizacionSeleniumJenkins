@@ -12,6 +12,7 @@
                     <include name="testCheckout"/>
                     <include name="testFinalCheckout"/>
                     <include name="testOrderCompletion"/>
+                    <include name="testDummy"/>
                 </methods>
             </class>
         </classes>

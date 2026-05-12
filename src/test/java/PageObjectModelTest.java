@@ -192,6 +192,10 @@ public class PageObjectModelTest {
         delay();
     }
 
+    @Test(dependsOnMethods = "testOrderCompletion")
+    public void testDummy(){
+        Assert.assertTrue(true);
+    }
 
     @AfterClass
     public void tearDown() {
